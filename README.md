@@ -40,9 +40,12 @@ Our solution introduces a **real-time system** that detects and automatically bl
 ## 🖼️ Dataset Samples
 
 <div align="center">
-  <img src="srb_passport_rot_75.jpg" alt="Serbia passport sample (rotated)" width="30%"/>
-  <img src="fin_id_rot_53.jpg" alt="Finland ID sample (rotated)" width="30%"/>
-  <img src="saudi_id_06.jpg" alt="Saudi ID sample" width="30%"/>
+
+<img src="https://github.com/user-attachments/assets/23803715-7971-4bbc-980f-b7d487da4df4" alt="saudi_id_06" width="45%"/>
+<img src="https://github.com/user-attachments/assets/7bdf24e1-c89b-455b-8c12-0db2f5d7d867" alt="fin_id_rot_89" width="45%"/>
+<img src="https://github.com/user-attachments/assets/32d60923-a238-4321-89ce-720d3398f068" alt="rus_internalpassport_rot_32" width="45%"/>
+<img src="https://github.com/user-attachments/assets/760de171-8208-4cd7-96e6-520e48eacd98" alt="srb_passport_rot_47" width="45%"/>
+
 </div>
 
 ---
