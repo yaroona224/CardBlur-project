@@ -32,8 +32,7 @@ Our solution introduces a **real-time system** that detects and automatically bl
 
 - **Model:**  
   - **YOLOv8s** (You Only Look Once).  
-  - Multiple progressive training stages to improve generalization.  
-  - Achieved strong performance with precision and recall above 95% in final stage.
+  - Progressive training with background diversification and hand-held cases.
 
 ---
 
@@ -51,14 +50,14 @@ Our solution introduces a **real-time system** that detects and automatically bl
 ---
 
 ## 📊 Key Results
-| Training Stage | mAP50 | mAP50-95 | Recall | Precision |
-|----------------|-------|----------|--------|-----------|
-| Stage 1        | 0.89  | 0.79     | 0.86   | 0.92      |
-| Stage 2        | 0.93  | 0.84     | 0.90   | 0.94      |
-| Stage 3        | 0.94  | 0.86     | 0.92   | 0.93      |
-| Stage 4        | 0.96  | 0.92     | 0.95   | 0.98      |
 
-The model demonstrated **robust detection across multiple ID types**, improving especially in challenging scenarios like hand-held cards and diverse backgrounds.
+| Training Stage | mAP50  | Train Box Loss | Val Box Loss |
+|----------------|--------|----------------|--------------|
+| Stage 1        | 0.9326 | 0.7288         | 0.8372       |
+| Stage 2        | 0.9455 | 0.8515         | 0.9461       |
+| Stage 3        | 0.9660 | 0.8587         | 0.6099       |
+
+These stages reflect improvements from adding diverse backgrounds and targeting hand-held card scenarios.
 
 ---
 
