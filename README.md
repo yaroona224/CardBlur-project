@@ -33,7 +33,17 @@ Our solution introduces a **real-time system** that detects and automatically bl
 - **Model:**  
   - **YOLOv8s** (You Only Look Once).  
   - Multiple progressive training stages to improve generalization.  
-  - Achieved strong performance with precision and recall above 95% in final stage:contentReference[oaicite:0]{index=0}.  
+  - Achieved strong performance with precision and recall above 95% in final stage.
+
+---
+
+## 🖼️ Dataset Samples
+
+<div align="center">
+  <img src="srb_passport_rot_75.jpg" alt="Serbia passport sample (rotated)" width="30%"/>
+  <img src="fin_id_rot_53.jpg" alt="Finland ID sample (rotated)" width="30%"/>
+  <img src="saudi_id_06.jpg" alt="Saudi ID sample" width="30%"/>
+</div>
 
 ---
 
